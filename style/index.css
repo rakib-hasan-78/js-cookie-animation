@@ -55,3 +55,6 @@ body{
     font-size: var(--basic-btn-font-size);
     color: var(--global-btn-color);
 }
+.cookie{
+    overflow:visible;
+}
