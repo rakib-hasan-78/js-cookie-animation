@@ -1,0 +1,11 @@
+.h-10vh {
+    height: 10vh;
+    transition: all 350ms ease-in-out;
+    opacity:1;
+}
+
+.active{
+    transform:translateY(-500%);
+    opacity:0;
+    
+}
