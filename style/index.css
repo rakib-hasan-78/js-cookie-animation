@@ -1,11 +1,39 @@
-.h-10vh {
-    height: 10vh;
-    transition: all 350ms ease-in-out;
-    opacity:1;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --section-color:#f3e2ce;
+    --font-family: "Poppins", sans-serif;
+    --basic-font-weight:300;
+    --basic-font-size:calc(1.2rem + 5px);
+    --basic-font-paragraph: calc(1rem + 1px) !important;
+    --basic-pg-font-weight:200 !important;
 }
 
-.active{
-    transform:translateY(-500%);
-    opacity:0;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-family);
+    font-weight: var(--basic-font-weight);
+    background-color: var(--section-color);
+    text-transform: capitalize;
+}
+
+.cookie-container{
+    background: linear-gradient(260deg, #9b6c50 0%, #4f2626 100%);
+}
+.custom{
     
+    border-color:  #9b6c50 !important;
+}
+.basic{
+    font-size: var(--basic-font-size);
+}
+.pg{
+    font-size: var(--basic-font-paragraph);
+}
+.pg-fw{
+    font-weight: var(--basic-font-paragraph);
 }
