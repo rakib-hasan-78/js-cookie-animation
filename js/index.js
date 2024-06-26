@@ -13,3 +13,12 @@ btn.addEventListener('click', (e) => {
     e.preventDefault();
     gsap.to('.cookie-container', {opacity:0, duration:.75, y:40, ease: "power3.out"})
 })
+
+// footer
+
+document.getElementById('footer').innerHTML=`
+    <div class="container d-flex text-center align-items-center justify-content-center flex-column mt-5 pt-5">
+        <span class="text-black pt-5 mt-5">&copy; ${new Date().getFullYear()} All The Rights Reserved.</span>
+        <span class="text-black text-capitalize footer-font">mini project by <span class="text-uppercase clr top-weight">md rakib hasan</span>.</span>
+    </div>
+`

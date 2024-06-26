@@ -10,6 +10,8 @@
     --basic-btn-font-size:calc(.7rem + 2px);
     --btn-font-weight:700;
     --global-btn-color:hsl(0, 35%, 23%);
+    --global-font-weight:900;
+    --footer-font-size: calc(.7rem) !important;
 }
 
 *{
@@ -42,6 +44,9 @@ body{
     font-weight: var(--basic-font-paragraph);
 }
 
+.top-weight{
+    font-weight: var(--global-font-weight);
+}
 
 .btn:active,
 .btn:focus {
@@ -57,4 +62,17 @@ body{
 }
 .cookie{
     overflow:visible;
+}
+.titile-weight{
+    font-weight: var(--global-font-weight);
+}
+.clr{
+    color: var(--global-btn-color);
+}
+.overflow{
+    overflow: hidden;
+}
+
+.footer-font{
+    font-size: var(--footer-font-size);
 }
