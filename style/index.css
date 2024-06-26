@@ -3,10 +3,13 @@
 :root{
     --section-color:#f3e2ce;
     --font-family: "Poppins", sans-serif;
-    --basic-font-weight:300;
+    --basic-font-weight:300 !important;
     --basic-font-size:calc(1.2rem + 5px);
     --basic-font-paragraph: calc(1rem + 1px) !important;
     --basic-pg-font-weight:200 !important;
+    --basic-btn-font-size:calc(.7rem + 2px);
+    --btn-font-weight:700;
+    --global-btn-color:hsl(0, 35%, 23%);
 }
 
 *{
@@ -36,4 +39,18 @@ body{
 }
 .pg-fw{
     font-weight: var(--basic-font-paragraph);
+}
+
+
+.btn:active,
+.btn:focus {
+    box-shadow: none; /* Remove any box-shadow */
+    border-color: transparent;
+    outline: none;
+}
+
+.custom-btn{
+    font-weight: var(--btn-font-weight);
+    font-size: var(--basic-btn-font-size);
+    color: var(--global-btn-color);
 }
